@@ -1,0 +1,110 @@
+
+
+body{
+  background-image: url("immagini/background.jpg");
+  background-size: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+body > div{
+
+  width: 1400px;
+  height: 870px;
+  background: rgba(0,0,0,0.5);
+  width: 64%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 25px;
+}
+
+div img{
+  display: block;
+  margin: auto;
+  width: 20%;
+  height: 13%;
+  padding-top: 8%;
+}
+
+#titolo{
+  display: block;
+  margin-left: 32%;
+  color: lime;
+  font-size: 30px;
+  line-height: 1px;
+}
+
+.greenbox{
+  background-color: rgba(30,195,30,255);
+  height: 50px;
+  width: 85%;
+  margin: auto;
+}
+
+.buttons{
+  display: inline-block;
+  margin-left: 36%;
+  margin-top: 18px;
+
+}
+
+a{
+  text-decoration: none;
+}
+/* Ho provato ad aggiungere text-decoration a .buttons ma non lo prende,
+quindi ho dovuto ricorrere a questa brutta linea da 1 comando */
+
+#options{
+  display: block;
+  margin-top: 40px;
+  color: white;
+  margin-left: 7%;
+}
+
+label{
+  font-size: 25px;
+  color: white;
+}
+
+.indirizzo{
+  padding-bottom: 15px;
+}
+
+
+.orangebox{
+  border-radius: 10px;
+  background-color: rgba(245,180,83,255);
+  height: 35px;
+  width: 35%;
+  margin-top: -13px;
+}
+
+.dgreenbox{
+  border-radius: 10px;
+  background-color: rgba(30,195,30,255);
+  height: 35px;
+  width: 60%;
+  margin-top: -13px;
+}
+
+.redbox{
+  border-radius: 10px;
+  background-color: rgba(190,65,65,255);
+  height: 35px;
+  width: 15%;
+  margin-top: -13px;
+}
+
+
+.modelli{
+  margin-top: 0px;
+  line-height: 25px;
+  font-size: 15px;
+
+}
+
+#spacer{
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
